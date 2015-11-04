@@ -276,7 +276,9 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">65</integer>
+    <add-resource type="string" name="config_deviceHardwareWakeKeys">65</add-resource>
+    <add-resource type="string" name=""></add-resource>
+
 
     <!-- Panel auto brightness value -->
     <!--integer name="config_panelAutoBrightnessValue">1</integer-->
@@ -285,7 +287,7 @@
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
 
     <!-- Performance profiles -->
-    <string name="config_perf_profile_prop">sys.perf.profile</string>
-    <string name="config_perf_profile_default_entry">1</string>
+    <add-resource type="string" name="config_perf_profile_prop">sys.perf.profile</add-resource>
+    <add-resource type="string" name="config_perf_profile_default_entry">1</add-resource>
 
 </resources>
